@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ppplot favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2f7f5" />
+      <stop offset="100%" stop-color="#d8e8ef" />
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="60" height="60" rx="6" fill="url(#bg)" stroke="#c9d8de" stroke-width="1.5" />
+
+  <!-- Cartesian axes with reduced inner padding -->
+  <line x1="8" y1="56" x2="58" y2="56" stroke="#0f1720" stroke-width="3" stroke-linecap="round" />
+  <line x1="8" y1="56" x2="8" y2="8" stroke="#0f1720" stroke-width="3" stroke-linecap="round" />
+
+  <!-- First 'p' with two traces made of line segments -->
+  <polyline
+    points="8,48 13,48 13,18 20,10 55,10"
+    fill="none"
+    stroke="#0f766e"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <polyline
+    points="8,49 14,49 14,30 25,30 34,20 34,11 55,11"
+    fill="none"
+    stroke="#2563eb"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.95"
+  />
+  <polyline
+    points="8,53 28,53 28,37 35,30 55,30"
+    fill="none"
+    stroke="#ea580c"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <polyline
+    points="8,54 29,54 29,43 36,43 42,37 42,31 55,31"
+    fill="none"
+    stroke="#7c3aed"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.95"
+  />
+</svg>

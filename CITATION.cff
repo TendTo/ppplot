@@ -1,0 +1,36 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ppplot
+message: >-
+  pplot is a Python package and web app that can be used to
+  generate performance profiles as defined in Benchmarking
+  optimization software with performance profiles by
+  Elizabeth D. Dolan & Jorge J. Moré.
+type: software
+authors:
+  - given-names: Ernesto
+    family-names: Casablanca
+    email: casablancaernesto@gmail.com
+    affiliation: Newcastle University
+    orcid: 'https://orcid.org/0009-0009-3741-1624'
+repository-code: 'https://github.com/TendTo/ppplot'
+url: 'https://tendto.github.io/ppplot'
+keywords:
+  - Performance Profiles
+  - Benchmarks
+license: MIT
+references:
+  - authors:
+      - family-names: Dolan
+        given-names: Elizabeth D.
+      - family-names: Moré
+        given-names: Jorge J.
+    doi: 10.1007/s101070100263
+    issue: 2
+    journal: "Mathematical Programming"
+    title: "Benchmarking optimization software with performance profiles"
+    type: article
+    volume: 91
+    year: 2002

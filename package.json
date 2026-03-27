@@ -1,0 +1,27 @@
+{
+  "name": "ppplot",
+  "version": "1.0.0",
+  "description": "Interactive performance profile plotting tools",
+  "private": true,
+  "packageManager": "pnpm@10.6.4",
+  "scripts": {
+    "test": "echo \"No Node.js tests configured\"",
+    "web:dev": "vite --config web/vite.config.ts",
+    "web:build": "vite build --config web/vite.config.ts",
+    "web:preview": "vite preview --config web/vite.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjax": "^3.2.2",
+    "papaparse": "^5.5.3",
+    "plotly.js-basic-dist-min": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.16",
+    "@types/plotly.js": "^3.0.7",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
+  }
+}
