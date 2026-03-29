@@ -7,7 +7,14 @@ authors = [
     { name = "Ernesto Casablanca", email = "casablancaernesto@gmail.com" },
 ]
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "h5py>=3.14.0",
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
+    "pandas>=2.3.3",
+    "plotly>=6.6.0",
+    "scipy>=1.13.1",
+]
 
 [project.scripts]
 ppplot = "ppplot:main"
@@ -17,8 +24,5 @@ requires = ["uv_build>=0.9.5,<0.10.0"]
 build-backend = "uv_build"
 
 [dependency-groups]
-dev = [
-    "pytest>=8.4.2",
-    "sphinx>=7.4.7",
-]
+dev = ["pytest>=8.4.2", "sphinx>=7.4.7"]
 docs = []
